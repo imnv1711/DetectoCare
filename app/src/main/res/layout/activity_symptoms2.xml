@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context=".symptoms2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.4"
+            android:text="SYMPTOMS"
+            android:gravity="center|left"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"></TextView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:background="@drawable/ic_launcher_background"></ImageView>
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Anxiety"
+        android:id="@+id/anxiety"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Cold Hands"
+        android:id="@+id/coldhands"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Mood Swings"
+
+        android:id="@+id/moodswings"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+
+        android:id="@+id/headache"
+        android:text="  Headache"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Fever"
+
+        android:id="@+id/fever"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Diarrhea"
+
+        android:id="@+id/diarrhea"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Sunken Eye"
+
+        android:id="@+id/sunkeneye"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Runny Nose"
+
+        android:id="@+id/runnynose"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="  Constipation"
+
+        android:id="@+id/constipation"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        ></CheckBox>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:text="NEXT"
+            android:id="@+id/btNext2"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25dp"
+            ></Button>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/etTrial2"
+        android:layout_weight="0.5"
+        android:text="SYMPTOMS HERE"
+        ></EditText>
+
+
+
+</LinearLayout>

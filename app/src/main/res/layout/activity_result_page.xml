@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".resultPage">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="20dp"
+        android:text=" Manav,Male,20 "
+        android:gravity="center|left"
+        android:textColor="#6499E9"
+        android:fontFamily="sans-serif-black"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="30dp"
+        android:text=" SUMMARY "
+        android:gravity="center|left"
+        android:textColor="#6499E9"
+        android:fontFamily="sans-serif-black"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:textSize="20dp"
+        android:text="People with symptoms similar to yours can usually manage their symptoms safely at home. You could also seek advice by visiting or contacting your local pharmacy. If your symptoms persist longer than expected, if they get worse, or if you notice new symptoms, you should consult a doctor for further assessment and advice. "
+        android:gravity="left"
+        android:layout_margin="5dp"
+        android:textColor="#6499E9"
+        android:fontFamily="sans-serif-black"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="30dp"
+        android:text=" SYMPTOMS "
+        android:gravity="center|left"
+        android:textColor="#6499E9"
+        android:fontFamily="sans-serif-black"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="20dp"
+        android:id="@+id/tvResult"
+        android:text=" POSSIBLE DISEASE "
+        android:gravity="center|left"
+        android:textColor="#6499E9"
+        android:fontFamily="sans-serif-black"></TextView>
+
+</LinearLayout>
